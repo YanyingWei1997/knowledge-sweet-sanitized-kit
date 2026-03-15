@@ -37,6 +37,7 @@ Read in this order:
   - `ai.openclaw.knowledge-sweet-obsidian-sync.plist`
 - `docs/`
   - `FEISHU_CONFIG_README.md`
+  - `OpenClaw-Windows-安装教程.md`
   - `CONFIG.md`
   - `SKILL.md`
   - `TEAM_CONTEXT.md`
