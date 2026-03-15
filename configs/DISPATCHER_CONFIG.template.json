@@ -1,0 +1,8 @@
+{
+  "defaultGroupId": "<YOUR_GROUP_ID>",
+  "channel": "feishu",
+  "sourceAgentId": "main",
+  "pollIntervalMs": 2000,
+  "gatewayTimeoutMs": 15000,
+  "logToHandoff": true
+}

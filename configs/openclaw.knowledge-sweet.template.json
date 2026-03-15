@@ -1,0 +1,38 @@
+{
+  "agents": {
+    "list": [
+      {
+        "id": "main",
+        "name": "main",
+        "identity": {
+          "name": "<DISPLAY_NAME_MAIN>"
+        }
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "feishu",
+        "accountId": "knowledge_main"
+      }
+    }
+  ],
+  "channels": {
+    "feishu": {
+      "groupPolicy": "open",
+      "accounts": {
+        "knowledge_main": {
+          "appId": "<APP_ID>",
+          "appSecret": "<APP_SECRET>",
+          "groups": {
+            "<YOUR_GROUP_ID>": {
+              "requireMention": false
+            }
+          }
+        }
+      }
+    }
+  }
+}

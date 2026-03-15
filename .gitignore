@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+*.pid
+DISPATCH_QUEUE.jsonl
+DISPATCH_STATE.json
+ACTIVE_CONTEXT.json
+HANDOFF_LOG.md
+SHARED_MEMORY.md
