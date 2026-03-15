@@ -1,4 +1,18 @@
-# knowledge-sweet 脱敏复现包
+# knowledge-sweet Sanitized Reproduction Kit
+
+Sanitized templates, scripts, and documentation for reproducing the `knowledge-sweet` OpenClaw workspace, including Feishu/Lark group access, dispatcher setup, and optional Obsidian sync.
+
+## Quick Start
+
+Read in this order:
+
+1. `10分钟复现清单.md`
+2. `部署说明-knowledge-sweet.md`
+3. `分发规则-knowledge-sweet.md`
+4. `详细使用教程.md`
+5. `AI提示词-复现knowledge-sweet.md`
+
+## 中文说明
 
 这份包只针对 `knowledge-sweet` 工作区。
 
