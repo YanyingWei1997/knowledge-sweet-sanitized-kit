@@ -36,6 +36,7 @@ Read in this order:
   - `sync-to-obsidian.sh`
   - `ai.openclaw.knowledge-sweet-obsidian-sync.plist`
 - `docs/`
+  - `FEISHU_CONFIG_README.md`
   - `CONFIG.md`
   - `SKILL.md`
   - `TEAM_CONTEXT.md`
