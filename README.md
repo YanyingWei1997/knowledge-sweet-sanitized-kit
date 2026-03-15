@@ -7,10 +7,12 @@ Sanitized templates, scripts, and documentation for reproducing the `knowledge-s
 Read in this order:
 
 1. `10分钟复现清单.md`
-2. `部署说明-knowledge-sweet.md`
-3. `分发规则-knowledge-sweet.md`
-4. `详细使用教程.md`
-5. `AI提示词-复现knowledge-sweet.md`
+2. `FEISHU_CONFIG_README.md`
+3. `OpenClaw-Windows-安装教程.md`
+4. `部署说明-knowledge-sweet.md`
+5. `分发规则-knowledge-sweet.md`
+6. `详细使用教程.md`
+7. `AI提示词-复现knowledge-sweet.md`
 
 ## 中文说明
 
@@ -25,6 +27,15 @@ Read in this order:
 
 ## 目录
 
+- 根目录教程
+  - `FEISHU_CONFIG_README.md`
+  - `OpenClaw-Windows-安装教程.md`
+  - `10分钟复现清单.md`
+  - `部署说明-knowledge-sweet.md`
+  - `分发规则-knowledge-sweet.md`
+  - `详细使用教程.md`
+  - `AI提示词-复现knowledge-sweet.md`
+  - `映射表示例模板.md`
 - `configs/`
   - `openclaw.knowledge-sweet.template.json`
   - `DISPATCHER_CONFIG.template.json`
@@ -36,8 +47,6 @@ Read in this order:
   - `sync-to-obsidian.sh`
   - `ai.openclaw.knowledge-sweet-obsidian-sync.plist`
 - `docs/`
-  - `FEISHU_CONFIG_README.md`
-  - `OpenClaw-Windows-安装教程.md`
   - `CONFIG.md`
   - `SKILL.md`
   - `TEAM_CONTEXT.md`
@@ -45,12 +54,6 @@ Read in this order:
   - `PROJECT_BOOTSTRAP_FLOW.md`
   - `TAG_WHITELIST.md`
   - `ACTIVE_CONTEXT_SPEC.md`
-- 根目录补充文档
-  - `部署说明-knowledge-sweet.md`
-  - `分发规则-knowledge-sweet.md`
-  - `详细使用教程.md`
-  - `AI提示词-复现knowledge-sweet.md`
-  - `10分钟复现清单.md`
 
 ## 已脱敏内容
 
@@ -69,23 +72,27 @@ Read in this order:
 人工阅读建议按下面顺序进行：
 
 1. `README.md`
-2. `10分钟复现清单.md`
-3. `部署说明-knowledge-sweet.md`
-4. `分发规则-knowledge-sweet.md`
-5. `详细使用教程.md`
-6. `AI提示词-复现knowledge-sweet.md`
+2. `FEISHU_CONFIG_README.md`
+3. `OpenClaw-Windows-安装教程.md`
+4. `10分钟复现清单.md`
+5. `部署说明-knowledge-sweet.md`
+6. `分发规则-knowledge-sweet.md`
+7. `详细使用教程.md`
+8. `AI提示词-复现knowledge-sweet.md`
 
 如果使用 AI 代为落地，建议先让 AI 学习：
 
 1. `README.md`
-2. `部署说明-knowledge-sweet.md`
-3. `分发规则-knowledge-sweet.md`
-4. `详细使用教程.md`
-5. `configs/openclaw.knowledge-sweet.template.json`
-6. `configs/DISPATCHER_CONFIG.template.json`
-7. `scripts/dispatch-daemon.mjs`
-8. `scripts/start-dispatcher.sh`
-9. `scripts/sync-to-obsidian.sh`
+2. `FEISHU_CONFIG_README.md`
+3. `OpenClaw-Windows-安装教程.md`
+4. `部署说明-knowledge-sweet.md`
+5. `分发规则-knowledge-sweet.md`
+6. `详细使用教程.md`
+7. `configs/openclaw.knowledge-sweet.template.json`
+8. `configs/DISPATCHER_CONFIG.template.json`
+9. `scripts/dispatch-daemon.mjs`
+10. `scripts/start-dispatcher.sh`
+11. `scripts/sync-to-obsidian.sh`
 
 ## 机器人资料盘点与映射
 
@@ -137,7 +144,7 @@ Read in this order:
 - 可使用自定义飞书机器人名称，只要配置里的 `agentId`、绑定关系和目录映射保持一致即可。
 - 模板中建议始终保留“职责名 + 占位符”的写法，不要把个人化昵称写进模板。
 
-## 不建议直接分享的运行态文件
+## Not Included in This Repo
 
 - `ACTIVE_CONTEXT.json`
 - `DISPATCH_QUEUE.jsonl`
@@ -146,4 +153,4 @@ Read in this order:
 - `SHARED_MEMORY.md`
 - 任意 `*.log`
 
-这些文件属于运行态，不属于模板。
+这些文件属于运行态，不属于模板，因此不在公开仓库中。
