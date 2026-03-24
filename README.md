@@ -9,10 +9,11 @@ Read in this order:
 1. `10分钟复现清单.md`
 2. `FEISHU_CONFIG_README.md`
 3. `OpenClaw-Windows-安装教程.md`
-4. `部署说明-knowledge-sweet.md`
-5. `分发规则-knowledge-sweet.md`
-6. `详细使用教程.md`
-7. `AI提示词-复现knowledge-sweet.md`
+4. `文档关系与高频问题说明.md`
+5. `部署说明-knowledge-sweet.md`
+6. `分发规则-knowledge-sweet.md`
+7. `详细使用教程.md`
+8. `AI提示词-复现knowledge-sweet.md`
 
 ## 中文说明
 
@@ -31,6 +32,7 @@ Read in this order:
   - `FEISHU_CONFIG_README.md`
   - `OpenClaw-Windows-安装教程.md`
   - `10分钟复现清单.md`
+  - `文档关系与高频问题说明.md`
   - `部署说明-knowledge-sweet.md`
   - `分发规则-knowledge-sweet.md`
   - `详细使用教程.md`
@@ -74,25 +76,27 @@ Read in this order:
 1. `README.md`
 2. `FEISHU_CONFIG_README.md`
 3. `OpenClaw-Windows-安装教程.md`
-4. `10分钟复现清单.md`
-5. `部署说明-knowledge-sweet.md`
-6. `分发规则-knowledge-sweet.md`
-7. `详细使用教程.md`
-8. `AI提示词-复现knowledge-sweet.md`
+4. `文档关系与高频问题说明.md`
+5. `10分钟复现清单.md`
+6. `部署说明-knowledge-sweet.md`
+7. `分发规则-knowledge-sweet.md`
+8. `详细使用教程.md`
+9. `AI提示词-复现knowledge-sweet.md`
 
 如果使用 AI 代为落地，建议先让 AI 学习：
 
 1. `README.md`
 2. `FEISHU_CONFIG_README.md`
 3. `OpenClaw-Windows-安装教程.md`
-4. `部署说明-knowledge-sweet.md`
-5. `分发规则-knowledge-sweet.md`
-6. `详细使用教程.md`
-7. `configs/openclaw.knowledge-sweet.template.json`
-8. `configs/DISPATCHER_CONFIG.template.json`
-9. `scripts/dispatch-daemon.mjs`
-10. `scripts/start-dispatcher.sh`
-11. `scripts/sync-to-obsidian.sh`
+4. `文档关系与高频问题说明.md`
+5. `部署说明-knowledge-sweet.md`
+6. `分发规则-knowledge-sweet.md`
+7. `详细使用教程.md`
+8. `configs/openclaw.knowledge-sweet.template.json`
+9. `configs/DISPATCHER_CONFIG.template.json`
+10. `scripts/dispatch-daemon.mjs`
+11. `scripts/start-dispatcher.sh`
+12. `scripts/sync-to-obsidian.sh`
 
 ## 机器人资料盘点与映射
 

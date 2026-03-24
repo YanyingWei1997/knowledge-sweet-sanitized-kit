@@ -59,18 +59,21 @@
 在开始改文件前，你必须按下面顺序学习材料，并先给出学习总结：
 
 1. README.md
-2. 部署说明-knowledge-sweet.md
-3. 分发规则-knowledge-sweet.md
-4. 详细使用教程.md
-5. docs/CONFIG.md
-6. docs/SKILL.md
-7. docs/TEAM_CONTEXT.md
-8. configs/openclaw.knowledge-sweet.template.json
-9. configs/DISPATCHER_CONFIG.template.json
-10. scripts/dispatch-daemon.mjs
-11. scripts/enqueue-dispatch.mjs
-12. scripts/start-dispatcher.sh
-13. scripts/sync-to-obsidian.sh
+2. FEISHU_CONFIG_README.md
+3. OpenClaw-Windows-安装教程.md
+4. 文档关系与高频问题说明.md
+5. 部署说明-knowledge-sweet.md
+6. 分发规则-knowledge-sweet.md
+7. 详细使用教程.md
+8. docs/CONFIG.md
+9. docs/SKILL.md
+10. docs/TEAM_CONTEXT.md
+11. configs/openclaw.knowledge-sweet.template.json
+12. configs/DISPATCHER_CONFIG.template.json
+13. scripts/dispatch-daemon.mjs
+14. scripts/enqueue-dispatch.mjs
+15. scripts/start-dispatcher.sh
+16. scripts/sync-to-obsidian.sh
 
 学习完成后，必须先输出：
 - 当前部署结构摘要

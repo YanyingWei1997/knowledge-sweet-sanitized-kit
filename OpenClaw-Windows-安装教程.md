@@ -121,13 +121,19 @@ Start-Process -FilePath "openclaw" -ArgumentList "gateway" -WindowStyle Hidden
 > Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
+
+
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
+
+
 ### 第二步：获取凭证
 
 1. 进入应用后，点击「凭证与基础信息」
 2. 复制 **App ID**（格式：`cli_xxx`）
 3. 复制 **App Secret**（妥善保管，不要泄露）
 
-> Public repository note: screenshots are omitted in this sanitized edition.
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
 ### 第三步：配置权限
@@ -240,7 +246,7 @@ Start-Process -FilePath "openclaw" -ArgumentList "gateway" -WindowStyle Hidden
 }
 ```
 
-> Public repository note: screenshots are omitted in this sanitized edition.
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
 ### 第四步：启用机器人能力
@@ -261,10 +267,10 @@ Start-Process -FilePath "openclaw" -ArgumentList "gateway" -WindowStyle Hidden
 
 > ⚠️ **重要**：保存前请确保 Gateway 正在运行！
 
-> Public repository note: screenshots are omitted in this sanitized edition.
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
-> Public repository note: screenshots are omitted in this sanitized edition.
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
 ### 第六步：发布应用
@@ -285,16 +291,16 @@ openclaw channels add
 
 选择「Feishu」，输入 App ID 和 App Secret。
 
-> Public repository note: screenshots are omitted in this sanitized edition.
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
-> Public repository note: screenshots are omitted in this sanitized edition.
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
-> Public repository note: screenshots are omitted in this sanitized edition.
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
-> Public repository note: screenshots are omitted in this sanitized edition.
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
 ### 方法 B：手动配置
@@ -354,7 +360,7 @@ openclaw gateway status
 
 确认输出包含 `RPC probe: ok` 和 `Listening: 127.0.0.1:18789`
 
-> Public repository note: screenshots are omitted in this sanitized edition.
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
 ### 3. 重启 Gateway 使配置生效
@@ -363,7 +369,7 @@ openclaw gateway status
 openclaw gateway restart
 ```
 
-> Public repository note: screenshots are omitted in this sanitized edition.
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
 ### 4. 测试飞书连接
@@ -372,7 +378,7 @@ openclaw gateway restart
 2. 搜索你的机器人
 3. 发送一条消息
 
-> Public repository note: screenshots are omitted in this sanitized edition.
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
 ### 5. 批准配对
@@ -383,12 +389,12 @@ openclaw gateway restart
 openclaw pairing approve feishu <配对码>
 ```
 
-> Public repository note: screenshots are omitted in this sanitized edition.
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
 配对成功后，即可正常对话！
 
-> Public repository note: screenshots are omitted in this sanitized edition.
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
 ---
@@ -482,7 +488,7 @@ Start-Process -FilePath "openclaw" -ArgumentList "gateway" -WindowStyle Hidden
 
 ### 常见问题补充（来自知乎教程）
 
-> Public repository note: screenshots are omitted in this sanitized edition.
+> Public repository note: screenshots from the original local guide are omitted in this sanitized edition.
 
 
 | 问题 | 解决方案 |

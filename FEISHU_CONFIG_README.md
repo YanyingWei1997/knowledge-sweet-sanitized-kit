@@ -1,6 +1,12 @@
 # OpenClaw 飞书多机器人配置指南
 
 > 通俗易懂版 - 把读者当小白
+>
+> 兼容性提醒：
+> 这份文档主要用于解释飞书 `channels`、`accounts`、`bindings` 这些概念。
+> 对于当前这套 `knowledge-sweet` 脱敏包，稳定基线是 `channels.feishu + bindings + dispatcher + 共享工作区`。
+> 如果目标环境在重启时提示 `agentToAgent` 不是合法配置项，不要继续添加顶层 `agentToAgent`，应回到 `文档关系与高频问题说明.md` 按当前方案排查。
+
 
 ---
 
